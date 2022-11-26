@@ -1,6 +1,6 @@
 # Colors
 # bg:"#32302f","#282828","#1d2021"
-BACKGROUND="#32302f"
+BACKGROUND="#282828"
 FOREGROUND=white
 HIGHLIGHT="#d79921"
 
@@ -19,8 +19,11 @@ set -g display-panes-active-colour $HIGHLIGHT
 # Mode
 set -g mode-style bg=$HIGHLIGHT,fg=$BACKGROUND
 
-# Windows
+# Clock
+set -g clock-mode-colour $FOREGROUND
+set -g clock-mode-style 24
 
+# Windows
 setw -g window-status-style bg=default,fg=$FOREGROUND,dim
 setw -g window-status-current-style bg=default,fg=$HIGHLIGHT,bold
 
@@ -36,7 +39,7 @@ set -g status-style fg=$FOREGROUND,bg=$BACKGROUND
 
 # Status contents
 set -g status-left ' 🦅 '
-set -g status-right '%b %d %Y %l:%M %p'
+set -g status-right '%b %d %Y %l:%M %p '
 
 # Message
 set -g message-style fg=$HIGHLIGHT,bg=$BACKGROUND,bright
