@@ -1,18 +1,10 @@
 # GRUVBOX
 # bg:"#32302f","#282828","#1d2021"
-#MESSAGE_BG="#1d2021"
-#MESSAGE_FG="#ebdbb2"
-#BG="#282828"
-#FG=white
-#HIGHLIGHT="#d79921"
-
-# Tokyonight
-# bg:"#1a1b26","#282828","#1d2021"
-MESSAGE_BG="#16161e"
-MESSAGE_FG=white
-BG="#1a1b26"
+MESSAGE_BG="#32302f"
+MESSAGE_FG="#ebdbb2"
+BG="#1d2021"
 FG=white
-HIGHLIGHT="#ff966c"
+HIGHLIGHT="#d79921"
 
 # Title
 set -g set-titles on
