@@ -2,4 +2,4 @@
 
 CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-tmux source-file "$CURRENT_DIR/theme/minimal_gruvbox.tmux"
+tmux source-file "$CURRENT_DIR/theme/tmux_statusbar.tmux"

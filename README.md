@@ -1,4 +1,4 @@
-# Minimal Gruvbox Tmux Statusbar
+# Minimal Tmux Statusbar
 
 ## Install
 
@@ -12,7 +12,7 @@ set -g @plugin 'kubil6y/tmux_statusbar'
 
 2. Install -> `prefix + I`
 
-3. You can change background colors manually in minimal_gruvbox.tmux, according to your gruvbox contrast level (soft,mid,hard)
+3. You can change background colors manually in tmux_statusbar.tmux, according to your contrast level (soft,mid,hard)
 
 ```
 bg:"#32302f","#282828","#1d2021"
