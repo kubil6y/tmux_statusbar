@@ -7,7 +7,7 @@
 1. Add to your `.tmux.conf`
 
 ```
-set -g @plugin 'kubil6y/minimal_gruvbox'
+set -g @plugin 'kubil6y/tmux_statusbar'
 ```
 
 2. Install -> `prefix + I`
