@@ -1,10 +1,17 @@
 # GRUVBOX
 # bg:"#32302f","#282828","#1d2021"
-MESSAGE_BG="#32302f"
-MESSAGE_FG="#ebdbb2"
-BG="#1d2021"
+# MESSAGE_BG="#32302f"
+# MESSAGE_FG="#ebdbb2"
+# BG="#1d2021"
+# FG=white
+# HIGHLIGHT="#d79921"
+
+# VSCODE
+MESSAGE_BG="#1E1E1E"
+MESSAGE_FG="#e2e2e2"
+BG="#1E1E1E"
 FG=white
-HIGHLIGHT="#d79921"
+HIGHLIGHT="#646695"
 
 # Title
 set -g set-titles on
