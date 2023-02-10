@@ -1,17 +1,17 @@
 # GRUVBOX
 # bg:"#32302f","#282828","#1d2021"
-# MESSAGE_BG="#32302f"
-# MESSAGE_FG="#ebdbb2"
-# BG="#1d2021"
-# FG=white
-# HIGHLIGHT="#d79921"
+MESSAGE_BG="#282828"
+MESSAGE_FG="#ebdbb2"
+BG="#282828"
+FG=white
+HIGHLIGHT="#d79921"
 
 # VSCODE
-MESSAGE_BG="#1E1E1E"
-MESSAGE_FG="#e2e2e2"
-BG="#1E1E1E"
-FG=white
-HIGHLIGHT="#646695"
+#MESSAGE_BG="#1E1E1E"
+#MESSAGE_FG="#d4d4d4"
+#BG="#1E1E1E"
+#FG=white
+#HIGHLIGHT="#569CD6"
 
 # Title
 set -g set-titles on
