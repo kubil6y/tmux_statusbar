@@ -1,17 +1,18 @@
 # GRUVBOX
-# bg:"#32302f","#282828","#1d2021"
-MESSAGE_BG="#282828"
+# bg:32302f,282828,1d2021
+# highlight:f6c177,d79921
+MESSAGE_BG="#1d2021"
 MESSAGE_FG="#ebdbb2"
-BG="#282828"
+BG="#1d2021"
 FG=white
-HIGHLIGHT="#d79921"
+HIGHLIGHT="#ebbcba"
 
-# VSCODE
-#MESSAGE_BG="#1E1E1E"
-#MESSAGE_FG="#d4d4d4"
-#BG="#1E1E1E"
-#FG=white
-#HIGHLIGHT="#569CD6"
+# rose pine
+MESSAGE_BG="#26233a"
+MESSAGE_FG="#e0def4"
+BG="#191724"
+FG=white
+HIGHLIGHT="#ebbcba"
 
 # Title
 set -g set-titles on
@@ -29,7 +30,6 @@ set -g display-panes-active-colour $HIGHLIGHT
 set -g mode-style bg=$HIGHLIGHT,fg=$BG
 
 # Windows
-
 setw -g window-status-style bg=default,fg=$FG,dim
 setw -g window-status-current-style bg=default,fg=$HIGHLIGHT,bold
 
@@ -41,7 +41,7 @@ setw -g pane-base-index 1
 set -g status-position bottom
 
 # Status Colors
-set -g status-style fg=$FG,bg=$BG
+set-option -g status-style bg=default,fg=$FG
 
 # Status contents
 set -g status-left ' 🦅 '
