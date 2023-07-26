@@ -1,18 +1,19 @@
 # GRUVBOX
-# bg:32302f,282828,1d2021
-# highlight:f6c177,d79921
+# bg:#32302f,#282828,#1d2021
+# fg: #ebdbb2,#e0e0e0,#fffbf6
+# highlight #fe8019,#e0def4,#d79921,#f6c177
 MESSAGE_BG="#1d2021"
-MESSAGE_FG="#ebdbb2"
+MESSAGE_FG="#e0e0e0"
 BG="#1d2021"
-FG=white
-HIGHLIGHT="#ebbcba"
+FG="#e0e0e0"
+HIGHLIGHT="#fabd2f"
 
 # rose pine
-MESSAGE_BG="#26233a"
-MESSAGE_FG="#e0def4"
-BG="#191724"
-FG=white
-HIGHLIGHT="#ebbcba"
+#MESSAGE_BG="#26233a"
+#MESSAGE_FG="#e0def4"
+#BG="#191724"
+#FG=white
+#HIGHLIGHT="#e0def4"
 
 # Title
 set -g set-titles on
@@ -31,7 +32,7 @@ set -g mode-style bg=$HIGHLIGHT,fg=$BG
 
 # Windows
 setw -g window-status-style bg=default,fg=$FG,dim
-setw -g window-status-current-style bg=default,fg=$HIGHLIGHT,bold
+setw -g window-status-current-style bg=default,fg=$MESSAGE_FG,bold
 
 # Base index (start counting from 1)
 set -g base-index 1
